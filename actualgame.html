@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jeopardy Hangman!</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+<h1 id="questionHeader">
+    Jeopardy Hangman!
+</h1>
+
+<h3 id="questionResult"></h3>
+<input type="text" id="input1" />
+<button class="button button1" onclick="submit()">Submit</button>
+
+<button class="button button1" onclick="resetGame()">Reset</button>
+
+<h3 id="userScore"></h3>
+<h3 id="questionDisplay"></h3>
+
+<img id="pics" style="border-color: navy; border-width: 5px; border-style: solid" height="500" width="500">
+
+<h2 id="questionHeader">
+    US History
+</h2>
+
+<div class="btn-group">
+    <button id="subject1Button100" onclick="buttonClicked('history', 100)">$100</button>
+    <button id="subject1Button200" onclick="buttonClicked('history', 200)">$200</button>
+    <button id="subject1Button300" onclick="buttonClicked('history', 300)">$300</button>
+    <button id="subject1Button400" onclick="buttonClicked('history', 400)">$400</button>
+    <button id="subject1Button500" onclick="buttonClicked('history', 500)">$500</button>
+</div>
+
+
+<h2 id="questionHeader">
+    Math
+</h2>
+
+<div class="btn-group">
+    <button id="subject2Button100" onclick="buttonClicked('math', 100)">$100</button>
+    <button id="subject2Button200" onclick="buttonClicked('math', 200)">$200</button>
+    <button id="subject2Button300" onclick="buttonClicked('math', 300)">$300</button>
+    <button id="subject2Button400" onclick="buttonClicked('math', 400)">$400</button>
+    <button id="subject2Button500" onclick="buttonClicked('math', 500)">$500</button>
+</div>
+
+<h2 id="questionHeader">
+    Chemistry
+</h2>
+
+<div class="btn-group">
+    <button id="subject3Button100" onclick="buttonClicked('chemistry', 100)">$100</button>
+    <button id="subject3Button200" onclick="buttonClicked('chemistry', 200)">$200</button>
+    <button id="subject3Button300" onclick="buttonClicked('chemistry', 300)">$300</button>
+    <button id="subject3Button400" onclick="buttonClicked('chemistry', 400)">$400</button>
+    <button id="subject3Button400" onclick="buttonClicked('chemistry', 500)">$500</button>
+</div>
+
+<h2 id="questionHeader">
+    Biology
+</h2>
+
+<div class="btn-group">
+    <button id="subject4Button100" onclick="buttonClicked('biology', 100)">$100</button>
+    <button id="subject4Button200" onclick="buttonClicked('biology', 200)">$200</button>
+    <button id="subject4Button300" onclick="buttonClicked('biology', 300)">$300</button>
+    <button id="subject4Button400" onclick="buttonClicked('biology', 400)">$400</button>
+    <button id="subject4Button500" onclick="buttonClicked('biology', 500)">$500</button>
+</div>
+
+<h2 id="questionHeader">
+    Entertainment/Pop Culture
+</h2>
+
+<div class="btn-group">
+    <button id="subject5button100" onclick="buttonClicked('entertainment', 100)">$100</button>
+    <button id="subject5button200" onclick="buttonClicked('entertainment', 200)">$200</button>
+    <button id="subject5button300" onclick="buttonClicked('entertainment', 300)">$300</button>
+    <button id="subject5button400" onclick="buttonClicked('entertainment', 400)">$400</button>
+    <button id="subject5button500" onclick="buttonClicked('entertainment', 500)">$500</button>
+</div>
+
+
+
+
+</body>
+</html>
